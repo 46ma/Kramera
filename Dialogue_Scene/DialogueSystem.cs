@@ -190,13 +190,4 @@ public class DialogueSystem : MonoBehaviour
             yield return null;
         }
     }
-
-    /*
-    IEnumerator EndDialogue()
-    {
-        isTransitioning = true;
-        yield return StartCoroutine(FadeCanvas(0));
-        SceneManager.LoadScene(nextSceneName);
-    }
-    */
 }
