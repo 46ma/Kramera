@@ -9,7 +9,6 @@ public class MainMenu : MonoBehaviour
     void Start()
     {
         int finishStatus = PlayerPrefs.GetInt("GameFinished", 0);
-        Debug.Log("สถานะจบเกมปัจจุบันคือ: " + finishStatus);
         
         //Check if player has finished the game
         if (PlayerPrefs.GetInt("GameFinished", 0) == 1)
